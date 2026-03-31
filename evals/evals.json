@@ -1,0 +1,23 @@
+{
+  "skill_name": "choose-skills",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我要开一个 Next.js SaaS 官网项目，重点是首页设计质感和后续 React 实现质量，先帮我选一组最合适的 skills。",
+      "expected_output": "第一行输出 2-4 个本地已安装 skills 的 @调用列表，且至少覆盖设计主技能和 React/审查类补充技能。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我现在有一个创业想法，想先验证值不值得做，再尽快收敛到一个 MVP。先推荐我应该用哪些 skills。",
+      "expected_output": "第一行输出 2-4 个本地已安装 skills 的 @调用列表，优先覆盖 idea validation、manual-first 或 MVP 收敛阶段。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想把一篇 Markdown 文章转成微信公众号图文，并顺手看看封面图和图文样式怎么处理。先帮我选 skills。",
+      "expected_output": "第一行输出精简的 @调用列表，主技能应明确指向微信图文相关能力，而不是泛泛的写作或设计 skill。",
+      "files": []
+    }
+  ]
+}
