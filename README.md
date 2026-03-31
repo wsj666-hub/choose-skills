@@ -10,6 +10,36 @@
 
 Instead of dumping every vaguely related skill, it tries to recommend a compact, complementary set that helps you start fast.
 
+## Quick Install
+
+### Fastest option
+
+Install globally from GitHub:
+
+```bash
+npx skills add https://github.com/wsj666-hub/choose-skills --yes --global
+```
+
+### Install only this skill by name
+
+```bash
+npx skills add https://github.com/wsj666-hub/choose-skills --skill choose-skills --yes --global
+```
+
+### Install to Codex only
+
+```bash
+npx skills add https://github.com/wsj666-hub/choose-skills --skill choose-skills --agent Codex --yes --global
+```
+
+### Preview before installing
+
+```bash
+npx skills add https://github.com/wsj666-hub/choose-skills --list
+```
+
+After installation, restart Codex or open a new session if the skill does not appear immediately.
+
 ## What It Does
 
 - Scans your local skill library before recommending anything
@@ -89,9 +119,23 @@ This makes the recommendations grounded in what is actually installed on your ma
 
 ## Installation
 
-### Codex
+### Recommended: use Skills CLI
 
-Copy this folder into your local Codex skills directory:
+If you use the open skills ecosystem, the easiest install path is:
+
+```bash
+npx skills add https://github.com/wsj666-hub/choose-skills --skill choose-skills --yes --global
+```
+
+If you want it available specifically for Codex:
+
+```bash
+npx skills add https://github.com/wsj666-hub/choose-skills --skill choose-skills --agent Codex --yes --global
+```
+
+### Manual install for Codex
+
+You can also copy this folder into your local Codex skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
