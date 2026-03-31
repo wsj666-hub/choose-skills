@@ -1,6 +1,6 @@
 ---
 name: choose-skills
-description: 在用户准备启动一个新项目、进入实现前规划阶段、询问“该用哪些 skill”、想从本地 skills 库中挑选最合适的技能组合，或明确要求先推荐 skills 再开工时，使用这个 skill。它会先检查当前机器上已安装的 Codex 和通用 skills，再输出一行可直接复制的 `@skill-a @skill-b @skill-c` 推荐列表，并给出简短理由。即使用户没有明确说“skills”，只要他在项目开工前需要一套合适的 skill 组合，也应优先使用这个 skill。
+description: 在用户准备启动新项目、进入项目 kickoff / planning 阶段、询问“该用哪些 skills”、想先从本地已安装 skills 里做 skill selection，或希望在开工前先 choose skills / recommend skills / pick the best skills for the task 时，使用这个 skill。It inspects the user's installed local skills, recommends the most relevant and complementary skill stack, and outputs a copyable `@skill-a @skill-b @skill-c` list. Use it whenever the user wants to choose skills before starting a project, before coding, or before deciding their workflow.
 ---
 
 # Choose Skills
