@@ -1,14 +1,24 @@
 # choose-skills
 
-`choose-skills` is a Codex-oriented skill that recommends the best local skill stack before you start a project.
+Choose the right local skills before you start building.
 
-它的目标很简单：在你真正开工前，先根据你的需求，从你本机已经安装的 skills 里挑出最合适的一组，并输出一行可直接复制的调用列表：
+`choose-skills` is a Codex-oriented skill for pre-project skill selection. It looks at your local skill library, picks the most relevant and complementary skills for the task, and returns a compact invocation line you can copy immediately.
+
+`choose-skills` 是一个面向 Codex 的“开工前选 skill”工具。它会先查看你本机已经安装的 skills，再根据当前项目需求挑出最合适、最互补的一组，并输出一行可以直接复制使用的调用列表。
+
+It is especially useful when you have installed many skills and no longer want to decide from memory every time a new project starts.
+
+它特别适合这种场景：你的 skill 已经装了很多，但每次开新项目时，不想再靠记忆临时判断该用哪几个。
+
+Example output:
 
 ```text
 @skill-a @skill-b @skill-c
 ```
 
-Instead of dumping every vaguely related skill, it tries to recommend a compact, complementary set that helps you start fast.
+Instead of dumping every vaguely related skill, it recommends a small, high-signal stack that helps you start faster with less noise.
+
+不是把“可能相关”的 skill 全部堆给你，而是尽量给出一套精炼、互补、能立刻开工的组合。
 
 ## Quick Install
 
