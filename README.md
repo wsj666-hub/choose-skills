@@ -176,6 +176,4 @@ choose-skills/
 
 ## License
 
-No license file has been added yet.
-
-If you plan to publish this as a true open-source repository, add a license such as MIT or Apache-2.0 before making it public.
+MIT. See [LICENSE](./LICENSE).
